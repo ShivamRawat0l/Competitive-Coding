@@ -1,7 +1,7 @@
 import os
 from datetime import date
 
-acceptedExtentions=['cpp','js','tsx','py','c','rs','go','java']
+acceptedExtentions=['cpp','js','tsx','py','c','rs','go','java','swift']
 
 
 files = [f for f in os.listdir('.') if os.path.isfile(f)]
